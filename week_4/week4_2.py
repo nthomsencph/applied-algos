@@ -20,6 +20,7 @@ def square_matrix_mul_rec(A, B):
         c_00 = A * B
 
     elif n == 2:
+        
         a_00, a_10, a_01, a_11 = partition(A, n)
         b_00, b_10, b_01, b_11 = partition(B, n)
 
